@@ -1,0 +1,2 @@
+id_aeronave,marca,ds_modelo,nr_serie,cd_categoria,cd_tipo,nm_fabricante,cd_cls,nr_pmd,cd_tipo_icao,nr_assentos_executivo,nr_assentos_economico,nr_assentos_max,nr_ano_fabricacao,tp_motor,qt_motor,tp_pouso
+a4d1ec50-11f7-4db6-b36b-fd6e67d2e1ab,Boeing,737-800,XY12345,Passageiro,Jato,Boeing Commercial Airplanes,A,22.5,B737,12,150,180,2015,Turboélice,2,Convencional
