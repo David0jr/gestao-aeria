@@ -16,18 +16,14 @@
   },
   "scripts": {
     "start": "cds-serve",
-    "build": "cds build",
-    "init": "cds deploy --to sqlite:db.sqlite"
+    "build": "cds build"
   },
   "cds": {
     "requires": {
       "db": {
-        "[development]": {
-          "kind": "sqlite",
-          "impl": "@cap-js/sqlite",
-          "credentials": {
-            "url": "memory"
-          }
+        "kind": "sqlite",
+        "credentials": {
+          "url": "db.sqlite"
         }
       }
     }

@@ -1,7 +1,17 @@
+/*Meu nome é David Junior, tenho 19 anos, e estou cursando análise e desenvolvimento de sistemas pela Fatec de lins.
+Estou a procura de uma vaga de estagio, pórem, sei que nao completei nem metade da prova, pois encontei um problema 
+no caminho, que se trata dos dados do documento "data" nao estar aclopando ao banco de dados "db.sqlite", e na aplicação no 
+servidor, támbem não aparece os dados. Estou um pouco descepcionado, pois não foi por falta de tentar, fiquei  a madrugada 
+e o dia tentando buscar uma solução, através das aulas da plataforma, documentação sap, npm e ate mesmo do ChatGPT.
+ Entretanto, não tivesucesso, agradeço a oprotunida pois aprendi muito, e se ainda tiver um espaço para que eu possa fazer parte, 
+ ficarei muito feliz! */
+
+
 namespace sap.cap.aviao;
 
+
 entity Aeronave {
-    key id_aeronave        : UUID; 
+    key id_aeronave    : UUID; 
     marca              : String(100); 
     ds_modelo          : String(100); 
     nr_serie           : String(100); 
@@ -18,7 +28,6 @@ entity Aeronave {
     tp_motor           : String(50); 
     qt_motor           : Integer; 
     tp_pouso           : String(50); 
-
 }
 
 entity Aeroporto {
